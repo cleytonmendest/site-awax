@@ -1,4 +1,4 @@
-##Site criado em HTML e CSS para estudos!
+<h2>Site criado em HTML e CSS para estudos!</h2>
 
 
 
