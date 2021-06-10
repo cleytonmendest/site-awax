@@ -514,6 +514,7 @@ header{
 .section-prices{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .section-table{
@@ -605,6 +606,7 @@ header{
 
 .section-facts {
     display:flex;
+    flex-wrap: wrap;
 }
 
 .section-fact {
@@ -778,6 +780,7 @@ footer {
     margin:auto;
     color:#FFF;
     display:flex;
+    flex-direction: column;
 }
 .footer--item {
     flex:1;
@@ -909,6 +912,23 @@ footer {
     .section-map--info-item:last-child{
         margin-bottom: 0;
     }
+    .section-client--logos img{
+        width: 60px;
+    }
+    .section-premium{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-premium--book img{
+        width: 300px;
+        margin-bottom: 50px;
+    }
+    .section-premium--feat img{
+        margin-left:15px;
+        margin-right:10px;
+    }
 }
 
 @media (max-width:450px){
@@ -1022,5 +1042,22 @@ footer {
 
     .section-map--info-item:last-child{
         margin-bottom: 0;
+    }
+    .section-client--logos img{
+        width: 50px;
+    }
+    .section-premium{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-premium--book img{
+        width: 300px;
+        margin-bottom: 50px;
+    }
+    .section-premium--feat img{
+        margin-left:15px;
+        margin-right:10px;
     }
 }
